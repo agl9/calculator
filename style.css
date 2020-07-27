@@ -1,0 +1,107 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 3vw;
+    margin: 1vw;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    width: 25vw;
+    border: 3px solid black;
+    margin: 3vw auto;
+}
+#display{
+    background-color: lightgrey;
+    font-size:2vw;
+    width:100%;
+    text-align: right;
+    margin:0vw;
+    padding:0;
+}
+#display p{
+    margin: 0.5vw;
+}
+#working{
+    display:flex;
+    flex-direction: row;
+}
+
+#numbers{
+    width:75%;
+    padding:1px;
+    display:flex;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    margin: 0vw;
+    justify-content: center;
+}
+#operations{
+    width:25%;
+    padding:2px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgba(128,128,128,0.8);
+    color:black;
+    justify-content: center;
+}
+#numbuttons{
+    border: 1px solid grey;
+    width:32%;
+    height:15%;
+    padding:20px 1px;
+    margin: 0vw auto;
+    text-align: center;
+    background-color: inherit;
+    color:white;
+}
+#opbuttons{
+    border: 1px solid black;
+    width:46%;
+    height:10%;
+    padding:20px 1px;
+    margin: 0vw auto;
+    text-align: center;
+    background-color: inherit;
+}
+#numbuttons:hover{
+    cursor: pointer;
+    background-color: mediumaquamarine;
+    color:black;
+}
+#opbuttons:hover{
+    cursor: pointer;
+    background-color: mediumaquamarine;
+    color:black;
+}
+#clear{
+    border: 1px solid grey;
+    width:32%;
+    height:10%;
+    padding:20px 1px;
+    margin: 0;
+    background-color: rgb(224, 204, 24);
+    text-align: center;
+}
+#clear:hover{
+    cursor: pointer;
+    background-color: mediumaquamarine;
+    color:black;
+}
+#equals{
+    border: 1px solid black;
+    width:46%;
+    height:10%;
+    padding:20px 1px;
+    margin: 0;
+    background-color: rgb(224, 204, 24);
+    text-align: center;
+}
+#equals:hover{
+    cursor: pointer;
+    background-color: mediumaquamarine;
+    color:black;
+}
